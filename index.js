@@ -9,7 +9,8 @@ $(document).ready(function () {
                 descricao += '<br>Título: ' + imagem.titulo;
                 descricao += '<br>Descrição: ' + imagem.descricao;
                 descricao += '<br>Caminho: ' + imagem.caminho;
-                descricao += '</p>';
+                descricao += '</p>'
+                descricao += '<img src="' + imagem.caminho + '" alt="Italian Trulli">';
                 $('#text').append(descricao);
             })
         }
